@@ -1,0 +1,152 @@
+/* ================ Header =================== */
+.top_header {
+    background-color: rgb(81, 202, 238);
+    min-height: 10px;
+}
+
+header > nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+
+.header_logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    padding: 0.5rem;
+    width: 1rem;
+}
+
+.header_img{
+    position: right;
+    grid-column: 4;
+    height: 100px;
+    margin-right: auto;
+}
+
+
+/* ================ Body =================== */
+body{
+    background-color:rgb(50, 149, 231);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    padding: 1rem;
+
+}
+
+.product{
+    min-height: 200px;
+    padding: 2rem;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+/* ================ Body Products =================== */
+.product_header{
+    font-size: larger;
+    text-align: center;
+    color: white;
+}
+
+.pringles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pringles_products {
+    min-height: 350px;
+    min-width: 30%;
+    max-width: 300px;
+    border: 3px rgba(0, 0, 0, 0.4) solid;
+    margin-top: 1rem;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+.original_header {
+    background-color: rgb(164, 9, 9);
+    color: white;
+    padding: 0.5rem;
+}
+
+.saltvinegar_header {
+    background-color: rgb(34, 152, 216);
+    color: white;
+    padding: 0.5rem;
+}
+
+.sourcream_header {
+    background-color: rgb(24, 183, 87);
+    color: white;
+    padding: 0.5rem;
+}
+
+.product_word {
+    color: black;
+}
+
+.pringles_products img {
+    height: 400px;
+    object-fit: fill;
+}
+
+.product_text {
+    padding: 1rem;
+}
+
+.pringles_product button {
+    width: 50%;
+}
+
+
+/* ================ Footer =================== */
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 2rem;
+}
+
+.footer_ending {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_ending > li {
+    padding-top: 0.5rem;
+}
+
+.footer_img {
+    grid-column: 4;
+    height: 100px;
+    margin-left: auto;
+}
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pringles</title>
+    <link href="./main.css" rel="stylesheet" />
+
+</head>
+
+<body>
+   <header class="top_header">
+        <nav>
+            <a class="header_logo">
+                <img src="https://1000logos.net/wp-content/uploads/2018/12/Pringles-Logo-2009.png" class="header_img "alt="Logo"/>
+                
+            </a>
+            <ul class="header_nav" role="list">
+                <li><a href="https://www.google.co.uk/" target="_blank">Home</a></li>
+                <li><a href="https://www.google.co.uk/" target="_blank">About</a></li>
+                <li><a href="https://www.google.co.uk/" target="_blank">Flavours</a></li>
+                <li><a href="https://www.google.co.uk/" target="_blank">Contact</a></li>
+
+            </ul>
+        </nav>
+   </header> 
+
+   <button onclick="myFunction()">Dark/Light Mode</button>
+   <script>
+   function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+   }
+   </script>
+
+   <main>
+        <section class="breaker">
+            <h1>HELLO & WELCOME</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat a ante a tincidunt. Suspendisse tincidunt nibh vel aliquam ultrices. Sed consequat scelerisque feugiat. Sed erat mauris, dapibus at libero nec, vestibulum faucibus turpis. Aenean lobortis consectetur lacinia. Vivamus vehicula dui eu metus laoreet feugiat. Nam auctor tempor posuere. Nulla imperdiet porttitor leo. Praesent ut orci ante.</p>
+            <img src="https://i.imgur.com/xPIUQbx.jpg" alt= "pringles bowl" class="center"/>
+        </section>
+    
+        <section class="Products">
+            <header class="product_header">
+                <h2>All our products</h2>
+            </header>
+            <section class="pringles">
+                <article class="pringles_products">
+                    <header class="original_header">
+                        <h2>Original</h2>
+                    </header>
+                    <main class="product_word">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat a ante a tincidunt. Suspendisse tincidunt nibh vel aliquam ultrices. Sed consequat scelerisque feugiat. Sed erat mauris, dapibus at libero nec, vestibulum faucibus turpis. Aenean lobortis consectetur lacinia. Vivamus vehicula dui eu metus laoreet feugiat. Nam auctor tempor posuere. Nulla imperdiet porttitor leo. Praesent ut orci ante.</p>
+                        <img src="https://i.imgur.com/ZgV8TyK.jpg" alt="Original Pringles"/>
+                        <div class="product__text">
+                            <h3>Original £1</h3>
+                            <p>Original crisps </p>
+                            <button>Add to cart</button>
+                        </div>
+                    </main>
+                </article>
+
+                <article class="pringles_products">
+                    <header class="saltvinegar_header">
+                        <h2>Salt & Vinegar</h2>
+                    </header>
+                    <main class="product_word">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat a ante a tincidunt. Suspendisse tincidunt nibh vel aliquam ultrices. Sed consequat scelerisque feugiat. Sed erat mauris, dapibus at libero nec, vestibulum faucibus turpis. Aenean lobortis consectetur lacinia. Vivamus vehicula dui eu metus laoreet feugiat. Nam auctor tempor posuere. Nulla imperdiet porttitor leo. Praesent ut orci ante.</p>
+                        <img src="https://i.imgur.com/DaMPYrV.jpg" alt="Salt & Vinegar"/>
+                        <div class="product__text">
+                            <h3>Salt & Vinegar £1</h3>
+                            <p>Salt & Vinegar crisps</p>
+                            <button>Add to cart</button>
+                        </div>
+                    </main>
+                </article>
+
+                <article class="pringles_products">
+                    <header class="sourcream_header">
+                        <h2>Sour Cream & Onion</h2>
+                    </header>
+                    <main class="product_word">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat a ante a tincidunt. Suspendisse tincidunt nibh vel aliquam ultrices. Sed consequat scelerisque feugiat. Sed erat mauris, dapibus at libero nec, vestibulum faucibus turpis. Aenean lobortis consectetur lacinia. Vivamus vehicula dui eu metus laoreet feugiat. Nam auctor tempor posuere. Nulla imperdiet porttitor leo. Praesent ut orci ante.</p>
+                        <img src="https://i.imgur.com/SmUz4iF.jpg" alt="Sour Cream & Onion" />
+                        <div class="product__text">
+                            <h3>Sour Cream & Onion £1</h3>
+                            <p>Sour Cream & Onion crisps</p>
+                            <button>Add to cart</button>
+                        </div>
+                    </main>
+                </article>
+            </section>
+        </section>
+   </main>
+
+
+   <footer class="footer">
+        <ul class="footer_ending">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <img src="https://1000logos.net/wp-content/uploads/2018/12/Pringles-Logo-2009.png" class="footer_img" alt="Pringles"/>
+   </footer>
+
+</body>
+
+</html>
